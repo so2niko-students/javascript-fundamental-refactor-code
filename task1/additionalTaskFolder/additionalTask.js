@@ -25,9 +25,9 @@ if (myPlace >= 1 && myPlace <= 36) {
         if (compartment[key].includes(parseInt(myPlace))) {
             compartmentKey = key;
             if (myPlace % 2 !== 0) {
-                alert(`Ваше місце в купе номер ${key}. Нижня поличка.`)
+                alert(`Ваше місце в купе під номером ${key}. Нижня поличка.`)
             } else {
-                alert(`Ваше місце в купер під номером ${key}. Верхня поличка`);
+                alert(`Ваше місце в купе під номером ${key}. Верхня поличка`);
             }
         }
     }
