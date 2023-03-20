@@ -87,7 +87,7 @@ calc();
 
 const findUnique = (arr) => {
     const newArr = new Set(arr);
-    return newArr.size === arr.length)
+    return newArr.size === arr.length
 }
 
 findUnique([1,3,5,6,7,7]);
