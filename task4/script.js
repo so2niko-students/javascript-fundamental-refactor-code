@@ -10,7 +10,7 @@ function sumSliceArray(arr, first, second) {
         if (first > arr.length || second > arr.length) {
             throw new Error("Number can`t be more than length of array");
         }
-        return console.log(arr[first] + arr[second]);
+        return arr[first] + arr[second];
     } catch (error) {
         alert(error.message);
     }
@@ -52,7 +52,7 @@ function calcRectangleArea(width, height) {
         if (isNaN(width) || isNaN(height)) {
             throw new Error("Both of parametres must be a number");
         }
-        return console.log((area = width * height));
+        return area = width * height;
     } catch (error) {
         alert(error.message);
     }
@@ -94,7 +94,7 @@ function showUser(id) {
         alert(error.message);
       }
     }
-    return console.log(validIds);
+    return validIds;
   }
   
   showUsers([1, -2, 13, 4, 5, 'S', 987]);
