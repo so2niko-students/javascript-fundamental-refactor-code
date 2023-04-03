@@ -118,13 +118,13 @@ const texthere = document.querySelector("#texthere");
 
 function moveBtnMessages() {
     moveBtn.addEventListener("click", () => {
-        texthere.innerHTML = "I was pressed!";
+        texthere.innerHTML += "I was pressed!";
     });
     moveBtn.addEventListener("mouseover", () => {
-        texthere.innerHTML = "Mouse on me!";
+        texthere.innerHTML += "Mouse on me!";
     });
     moveBtn.addEventListener("mouseout", () => {
-        texthere.innerHTML = "Mouse is not on me!";
+        texthere.innerHTML += "Mouse is not on me!";
     });
 }
 moveBtnMessages();
