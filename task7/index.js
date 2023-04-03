@@ -46,7 +46,7 @@ closeWindow();
 
 
 function changeCSS() {
-    let myText = document.querySelector("#text");
+    const myText = document.querySelector("#text");
     myText.style.color = "orange";
     myText.style.fontSize = "20px";
     myText.style.fontFamily = "Comic Sans MS";
