@@ -47,10 +47,9 @@ function mul() {
     second: "Sam",
     third: "Ray",
     fourth: "Bob",
-    fifth: "Name №5",
   };
   
-  let { first: f, third: x, fifth } = names;
+  let { first: f, third: x, fifth = "Name №5" } = names;
   
   console.log(f); // "Tom"
   
