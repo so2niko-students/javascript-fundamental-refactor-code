@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <span>Your To-Do-List</span>
+    </header>
+    <main class="container">
+        <div class="options">
+            <div class="options__list">
+                <select name="list" id="list"></select>
+                <button type="submit" class="deleteBtn">Delete</button>
+            </div>
+            <div class="add-list">
+                <input type="text" name="listname" id="listname" placeholder="List Name">
+                <button type="submit" class="btn-submit">New To Do List</button>
+            </div>
+        </div>
+        <div class="duties">
+            <div class="items-to-do">
+                <h1 id="duties-title"></h1>
+                <div class="items-to-do__input">
+                    <input type="text" name="to-do-items" id="to-do-items" placeholder="To Do Items">
+                    <button type="submit" class="btn-submit-items">+</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
