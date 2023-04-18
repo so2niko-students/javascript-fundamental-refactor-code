@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do-List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
@@ -16,7 +16,7 @@
     <main class="container">
         <div class="options">
             <div class="options__list">
-                <select name="list" id="list"></select>
+                <select name="list" id="list" disabled></select>
                 <button type="submit" class="deleteBtn">Delete</button>
             </div>
             <div class="add-list">
@@ -34,6 +34,7 @@
             </div>
         </div>
     </main>
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="./src/main.js" type="module"></script>
 </body>
 </html>
